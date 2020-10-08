@@ -4,13 +4,13 @@
 
 [产品页](https://www.aliyun.com/product/fc)开通服务。使用流程，如下：
 
-![](images/flaw.png)
+![](images/serverless/flaw.png)
 
 新手示例，如下：
 
-![](images/guide_0.png)
+![](images/serverless/guide_0.png)
 
-![](images/guide_1.png)
+![](images/serverless/guide_1.png)
 
 ## 创建函数
 
@@ -35,11 +35,11 @@
 
 VSCode 插件市场搜索 "aliyun" ，安装：
 
-![](images/code_aliyun_ext.png)
+![](images/serverless/code_aliyun_ext.png)
 
 左侧边栏，打开插件，绑定账户：
 
-![](images/code_aliyun_bind.png)
+![](images/serverless/code_aliyun_bind.png)
 
 依次输入 Account ID, AccessKey ID, AccessKey Secret, Account Alias 。
 
@@ -49,7 +49,7 @@ VSCode 插件市场搜索 "aliyun" ，安装：
 
 "LOCAL RESOURCES" 面板 "+" 创建函数：
 
-![](images/code_fc_create.png)
+![](images/serverless/code_fc_create.png)
 
 输入内容：
 
@@ -62,7 +62,7 @@ VSCode 插件市场搜索 "aliyun" ，安装：
 
 函数名称上 "Local Run" 运行：
 
-![](images/code_fc_run.png)
+![](images/serverless/code_fc_run.png)
 
 函数日志，输出在终端。
 
@@ -70,10 +70,10 @@ VSCode 插件市场搜索 "aliyun" ，安装：
 
 "LOCAL RESOURCES" 面板 "Deploy" 部署函数：
 
-![](images/code_fc_deploy.png)
+![](images/serverless/code_fc_deploy.png)
 
 "REMOTE RESOURCES" 可查看部署的函数。
 
 或者到阿里云[函数计算控制台](https://fc.console.aliyun.com)查看：
 
-![](images/demo_test.png)
+![](images/serverless/demo_test.png)
