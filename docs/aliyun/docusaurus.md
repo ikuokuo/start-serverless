@@ -16,7 +16,7 @@ npm install @alicloud/fun -g
 
 ```zsh
 ❯ fun --version
-3.6.17
+3.6.18
 ```
 
 `fun` 配置：
@@ -120,15 +120,14 @@ Resources:
 ❯ cat <<EOF >bootstrap
 #!/usr/bin/env bash
 export PORT=9000
-npm run serve -- --port $PORT
-# yarn serve --port $PORT
+npm run serve -- --port \$PORT
+# yarn serve --port \$PORT
 EOF
 ❯ chmod a+x bootstrap
 ```
 
-<!--
-* https://github.com/facebook/docusaurus/issues/3505
--->
+> Something is already running on port: https://github.com/facebook/docusaurus/issues/3505.
+> Check `npx docusaurus --version` >= 2.0.0-alpha.66 !
 
 编译：
 
@@ -196,7 +195,11 @@ service my-site deploy success
 
 Detect 'DomainName:Auto' of custom domain 'Domain'
 Request a new temporary domain ...
-The assigned temporary domain is http://32172743-1117460590419785.test.functioncompute.com，expired at 2020-10-18 23:59:03, limited by 1000 per day.
+The assigned temporary domain is http://33146085-1117460590419785.test.functioncompute.com，expired at 2020-10-18 23:59:03, limited by 1000 per day.
 Waiting for custom domain Domain to be deployed...
 custom domain Domain deploy success
 ```
+
+访问 http://33146085-1117460590419785.test.functioncompute.com:
+
+![](images/docusaurus/my-site-fun.png)
