@@ -4,7 +4,7 @@
 
 [产品页](https://www.aliyun.com/product/fc)开通服务。使用流程，如下：
 
-![](images/serverless/flaw.png)
+![](images/serverless/flow.png)
 
 新手示例，如下：
 
